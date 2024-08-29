@@ -1,0 +1,48 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    border: 3px solid #bbb;
+    width: 35%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    animation-name: borderanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding-block: 2%;
+    border-radius: 5px;
+    padding-right: 1%;
+    color: bisque;
+    font-size: 18px;
+    
+}
+@keyframes borderanim {
+    from{ border-color: aquamarine;}
+    to {
+        border-color: orange;
+    }
+}
+.linearGradient {
+    background: linear-gradient(to right,red,blue);
+    /* background: radial-gradient(circle, #ff7e5f,#0ed56e); */
+    
+}

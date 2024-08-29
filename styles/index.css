@@ -1,0 +1,121 @@
+body{
+    height: 200vh;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: azure;
+     margin-inline: 2%;
+
+}
+.fixImage{
+    position: fixed;
+    cursor: pointer;
+    top: 15%;
+    right: 2%;
+    z-index: 4;
+}
+header{
+    width: 97vw;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+.headerDiv{
+width: 40%;
+height: 100%;
+background-color: aquamarine;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: purple;
+}
+a:visited{
+    color: plum;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: cadetblue;
+}
+.logo{
+    margin-left: 3%;
+}
+.sliderContainer{
+    width: 97vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+}
+.mySlides{
+    display: none;
+}
+.display-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    cursor: pointer;
+}
+.display-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;  
+}
+.premiumSec{
+    width: 97vw;
+    height: 50vh;
+    background-color: rgba(0, 255, 255,0.2);
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    justify-content:space-between;
+    overflow-x: hidden;
+
+}
+.premiumDiv{
+    width: 30%;
+    height: 75%;
+    background-color: rgba(255, 127, 80,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.premTXT{
+    position: absolute;
+
+}
+.circlImage{
+    width: 100px;
+    height: 100px;
+    border-radius:50px ;
+}
+.menue{
+    background-color: rgba(127, 255, 212,0.3);
+    height: 20vh;
+
+}
+footer{
+    width: 97%;
+    height: 20vh;
+    background-color: rgba(0, 0, 255,0.2);
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+    padding-top: 2%;
+
+}

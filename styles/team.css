@@ -1,0 +1,73 @@
+body{
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+section{
+    width: 100vw;
+    height: 30%;
+    background-color: beige;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.colDivs{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 5px;
+}
+.req{
+    position: absolute;
+    top: 37%;
+    left: 12%; 
+    z-index: 1;
+}
+.gearimg{
+    z-index: 2;
+}
+h6 {
+    margin-top: 15%;
+    color: #1E1D4C;
+}
+@media (max-width:600px){
+    pre {
+        opacity: 0; 
+        /* آیتم اونجا قرار داره ولی دیده نمیشه */
+
+        /* display: none; */
+        /* آیتم از اونجا برداشته میشه */
+    }
+    h6{
+        color: red;
+    }
+
+}
+
+iframe{
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% calc(100% - 5rem),
+        0% 100%
+    );
+}
+.circleBTN{
+    width: 69.17px;
+    height: 69.17px;
+    border-radius: 34.585px;
+    background-color: #DF6951;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
